@@ -8,12 +8,12 @@ app.get('/',(req,res) => {
     })
 })
 
-app.get('/about',(req,res) => {
+app.get('/productos',(req,res) => {
     res.sendFile('./static/productos.html', {
         root: __dirname
     })
 })
-app.get('/contact',(req,res) => {
+app.get('/clientes',(req,res) => {
     res.sendFile('./static/clientes.html', {
         root: __dirname
     })
